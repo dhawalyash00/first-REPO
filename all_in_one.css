@@ -1,0 +1,25 @@
+body{
+   background-color:cyan;
+ }
+h1 {
+ color:red;align:centre;
+}
+table{
+border:1px solid red;
+ width:90%;
+}
+td{
+	border:1px solid black;
+	padding:2px;
+}
+.testclass{
+	color:black;
+	font:200%;
+}
+.regular{
+	color:brown;
+	font:150%;
+}
+#text{
+	color
+}
