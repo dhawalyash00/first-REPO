@@ -1,0 +1,21 @@
+<html>
+<head><title>prompt and alert </title>
+
+<script>
+function muPrompt()
+{
+  var person = prompt("please enter your name");
+  if(person != "")
+  document.getElementById("test").innerHTML = "Hello " + person + ", how are you nigga!";
+  else {
+    alert("enter a name");
+   }
+}
+</script>
+</head>
+<body>
+<H1 style = "color:cyan;"> prompt box </p>
+<button onclick = "muPrompt()">click me </button>
+<p id = "test"></p>
+</body>
+</html>
