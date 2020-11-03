@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+<html>
+<head> <title> first form </title>
+<script type = "text/javascript">
+function validation(){
+var pass1 = document.getElementById("password1").value;
+var pass2 = document.getElementById("password2").value;
+if(pass1 == pass2){
+alert("password match!");
+return true;
+}else{
+alert("password do not match!!");
+return false;
+
+}
+}</script>
+</head>
+<body>
+<form action = "MySubmitPage.html" onsubmit = "return validation()">
+first name: <br>
+<input type = "text" name = "firstname" required><br>
+last name: <br>
+<input type = "text" name = "lastname" value = "Smith"><br>
+User Password: <br>
+<input type = "password" id = "password1"> <br>
+<input type = "password" id = "password2"> <br>
+
+<input type = "radio" name = "food" value = "pizza" checked>Pizza<br>
+<input type = "radio" name = "food" value = "burger">Burger <br>
+<input type = "radio" name = "food" value = "salad">Salad  <br>
+Qualifications:<br>
+<input type = "checkbox" name = "quali" value = "HTML">HTML<br>
+<input type = "checkbox" name = "quali" value = "JS">JavaScript<br>
+<br>
+Quantity:<input type = "number" name = "quantity" min = "1" max = "10"><br>
+Birthday:<input type = "date" name = "birthday"><br>
+Choose your fav color:<input type = "color" name = "colour"><br>
+<input type = "submit" value = "submit">
+</form>
+</body>
+</html>
