@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<meta charset = "UTF-8">
+
+<TITLE>
+Payment Form
+</TITLE>
+</HEAD>
+<body>
+<center><h1>PAYMENT FORM</H1></CENTER>
+<form>
+<H2> PERSONAL INFORMATION</H2><BR>
+<div> Required fields are followed by *.</div>
+<P> NAME*: <INPUT TYPE =  "TEXT" NAME = "name" required></input></p>
+<fieldset>
+<legend> Gender* </legend>
+<p>
+ Male
+
+ <input type = "radio" name = "gender" required>
+ Female <input type = "radio" name = "gender" required> Not Sure <input type = "radio" name = "gender" required>
+</p>
+</fieldset>
+<p>Address: <TextArea name = "address" rows = "20" cols = "40"></textarea></p>
+<p> PinCode*: <input type = "number" name = "pincode" required></p>
+
+<hr>
+<br>
+<h2> Payment Information </h2>
+<p> Card Type: <select>
+<option value = "">--Select Your Card Type--</option>
+<option name = "visa">Visa</option>
+<option name = "rupay">Rupay</option>
+<option name = "mastercard">Mastercard</option>
+</select>
+<p>Card Number*: <input type = "number" name = "card_num" required></p>
+<p> Expiration Date*: <input type = "date" name = "expiry" required> </p>
+<p> CVV*: <input type = "password" name = "cvv" required></p>
+<input type = "submit" value = "Pay">
+</form>
+
+<body>
+</HTML>
